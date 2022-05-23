@@ -109,7 +109,6 @@ export default {
       })
     }
     function saveEdit() {
-      console.log(personal.value)
       tmpRows.value.map(item => {
         if (personal.value.id === item.id) {
           item = personal.value
